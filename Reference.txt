@@ -32,3 +32,5 @@ git remote add origin https://github.com/Prachi-15/practicegit.git : any commite
 git remote -v: shows origin and destination.
     
 git push origin main: push code into origin from main branch.
+
+git add. : Add all the files (new or updated) together.

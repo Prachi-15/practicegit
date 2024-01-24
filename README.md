@@ -28,4 +28,3 @@ git remote -v: shows origin and destination.
 
 git push origin main: push code into origin from main branch.
 
-
