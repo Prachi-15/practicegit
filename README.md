@@ -20,11 +20,31 @@ git config --global user.name "prachiagrawal1509@gmail.com" : give github passwo
 
 git branch -M main :Create a new branch with name "main" in local (can name master also).
 
+git branch: show branch
+
 git remote add origin https://github.com/Prachi-15/practicegit.git : 
 
 This indicate URL of destination repository, any commited file will go to this origin. origin is a name of destination URL.
 
 git remote -v: shows origin and destination.
 
-git push origin main: push code into origin from main branch.
+git push origin main: push code into origin.
+
+git add. : Add all the files (new or updated) together.
+
+git pull origin main: pull data from origin repository too local environment.
+
+.gitignore: 
+
+what is the use of gitignore ?
+
+While working on project we create multiple environments and packages and we don't want them to be on github because their file size is large. Github has a limitation to on size of file to be uploaded.
+
+If we want that specific file should not commit we can put it in .gitignore. 
+
+Like virtual environment: install only those packages in virtual environment which we will use.
+
+Ex: virtual env name is venv, then put it's name in the .gitignore file like venv/
+
+
 

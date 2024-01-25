@@ -27,10 +27,22 @@ git branch -M main :Create a new branch with name "main" in local (can name mast
 
 git branch: show branch
 
-git remote add origin https://github.com/Prachi-15/practicegit.git : any commited file will go to this origin. origin is a name of destination URL. This indictes any file we commit will go into origin.
+git remote add origin https://github.com/Prachi-15/practicegit.git : 
+
+Origin is a name of destination URL. This indictes any file we commit will go into origin.
 
 git remote -v: shows origin and destination.
     
-git push origin main: push code into origin from main branch.
+git push origin main: push code into origin 
 
 git add. : Add all the files (new or updated) together.
+
+git pull origin main: pull data from origin repository too local environment.
+
+.gitignore: 
+
+what is the use of gitignore ?
+
+While working on project we create multiple environments and packages and we don't want them to be on github because their file size is large. Github has a limitation to on size of file to be uploaded.
+
+If we want that specific file should not commit we can put it in .gitignore 
