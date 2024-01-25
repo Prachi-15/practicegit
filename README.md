@@ -32,6 +32,8 @@ git push origin main: push code into origin.
 
 git add. : Add all the files (new or updated) together.
 
+Make .gitignore new file from github repossitory and set python and then pull it in local environment.
+
 git pull origin main: pull data from origin repository too local environment.
 
 .gitignore: 
@@ -44,7 +46,16 @@ If we want that specific file should not commit we can put it in .gitignore.
 
 Like virtual environment: install only those packages in virtual environment which we will use.
 
-Ex: virtual env name is venv, then put it's name in the .gitignore file like venv/
+Ex: virtual env name is myvenv, then put it's name in the .gitignore file like myvenv/
+
+on git add. myvenv will not add becoz it is in .gitignore.
+
+Make comit and push it to main branch
+
+git commit -m "Fourth commit"
+git push origin main
+
+
 
 
 
